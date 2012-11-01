@@ -1,11 +1,14 @@
 gltoolkit
 =========
 
-Minimal toolkit to extract .po files from getlocalization.com
+Minimal toolkit to extract .po files from [GetLocalization.com](https://www.getlocalization.com/)
+as part of a [CMake] build process, or as standalone task.
+
+[![Build Status](https://secure.travis-ci.org/ooxi/gltoolkit.png)](http://travis-ci.org/ooxi/gltoolkit)
 
 
-[GetLocalization.com API](https://www.getlocalization.com/)
------------------------------------------------------------
+GetLocalization.com API
+-----------------------
 
 Detailed information about the Get Localization API is available at the
 [Get Localization Help Desk](http://support.getlocalization.com/entries/136183-api/).
