@@ -175,8 +175,10 @@ struct gl_translations* gl_get_translations(uint8_t const* project, uint8_t cons
 	}
 
 
-	/* Return translations
+	/* Return translations after freeing the document and the http response
 	 */
+	xml_document_free(document, false);
+	gl_free_response(response);
 	return translations;	
 
 
