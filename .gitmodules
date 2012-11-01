@@ -1,0 +1,6 @@
+[submodule "lib/xml.c"]
+	path = lib/xml.c
+	url = https://github.com/ooxi/xml.c.git
+[submodule "lib/curl"]
+	path = lib/curl
+	url = https://github.com/bagder/curl
