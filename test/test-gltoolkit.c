@@ -119,6 +119,7 @@ static gl_test_translations(uint8_t const* project, uint8_t const* language) {
 	 */
 exit_success:
 	gl_free_translations(translations);
+	curl_global_cleanup();
 }
 
 
