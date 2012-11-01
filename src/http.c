@@ -148,15 +148,3 @@ void gl_free_response(struct gl_http_response* response) {
 	free(response);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-

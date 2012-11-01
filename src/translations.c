@@ -273,13 +273,3 @@ void gl_free_translations(struct gl_translations* translations) {
 	free(translations);
 }
 
-
-
-
-
-
-
-
-
-
-
