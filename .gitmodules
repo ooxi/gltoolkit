@@ -4,3 +4,6 @@
 [submodule "lib/curl"]
 	path = lib/curl
 	url = https://github.com/bagder/curl
+[submodule "lib/entities"]
+	path = lib/entities
+	url = https://github.com/ooxi/entities.git
