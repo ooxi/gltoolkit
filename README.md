@@ -38,16 +38,18 @@ This library uses only two different Webservice calls, both member of the
 
 > If type is `xml`, the output data is in following XML format
 
-    <Languages>
-        <Language>
-            <Name>German</Name>
-            <IanaCode>de</IanaCode>
-        </Language>
-        <Language>
-            <Name>Russian</Name>
-            <IanaCode>ru</IanaCode>
-        </Language>
-    </Languages>
+```xml
+<Languages>
+    <Language>
+        <Name>German</Name>
+        <IanaCode>de</IanaCode>
+    </Language>
+    <Language>
+        <Name>Russian</Name>
+        <IanaCode>ru</IanaCode>
+    </Language>
+</Languages>
+```
 
 
 ### Retrieve translations in XML
@@ -56,44 +58,22 @@ This library uses only two different Webservice calls, both member of the
 
 > The data output in XML format, the list of all information of a master string
 
-    <GLStrings>
-        <product>violetland</product>
+```xml
+<GLStrings>
+    <product>violetland</product>
 
-        <GLString>
-            <MasterString>Please wait...</MasterString>
-            <LogicalString></LogicalString>
-            <ContextInfo>../src/program.cpp:183 ../src/program.cpp:346</ContextInfo>
-            <Translation>Bitte warten...</Translation>
-        </GLString>
-        <GLString>
-            <MasterString>Try to survive as long as you can.</MasterString>
-            <LogicalString></LogicalString>
-            <ContextInfo>../src/program.cpp:205</ContextInfo>
-            <Translation>Versuche so lange wie möglich zu überleben.</Translation>
-        </GLString>
-    <GLStrings>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <GLString>
+        <MasterString>Please wait...</MasterString>
+        <LogicalString></LogicalString>
+        <ContextInfo>../src/program.cpp:183 ../src/program.cpp:346</ContextInfo>
+        <Translation>Bitte warten...</Translation>
+    </GLString>
+    <GLString>
+        <MasterString>Try to survive as long as you can.</MasterString>
+        <LogicalString></LogicalString>
+        <ContextInfo>../src/program.cpp:205</ContextInfo>
+        <Translation>Versuche so lange wie möglich zu überleben.</Translation>
+    </GLString>
+<GLStrings>
+```
 

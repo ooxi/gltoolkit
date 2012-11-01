@@ -1,0 +1,7 @@
+<Translation>
+	<License>GPLv3 https://github.com/ooxi/violetland/blob/master/LICENSE%20%28code%29</License>
+	<Original-Translator>Nikita M. Makarov &lt;5253450@gmail.com&gt;</Original-Translator>
+	<Report-Msgid-Bugs-To>http://www.getlocalization.com/violetland/m_translate/8551/</Report-Msgid-Bugs-To>
+	<Plural-Forms>nplurals=3; plural=(n%10==1 &amp;&amp; n%100!=11 ? 0 : n%10>=2 &amp;&amp; n%10&lt;=4 &amp;&amp; (n%100&lt;10 || n%100>=20) ? 1 : 2);</Plural-Forms>
+</Translation>
+
