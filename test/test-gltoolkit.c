@@ -103,6 +103,8 @@ static gl_test_translations(uint8_t const* project, uint8_t const* language) {
 
 	struct gl_translation* translation = gl_get_translation(translations, 0);
 	if (!translation) {
+		fprintf(stderr, "Failed to fetch first translation, must not happen\n");
+		exit(EXIT_FAILURE);
 	}
 
 	fprintf(stdout, "The project's first translation is \"%s\", which translates \"%s\" at \"%s\" (logical string was \"%s\")\n",
