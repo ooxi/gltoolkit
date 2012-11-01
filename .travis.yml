@@ -4,5 +4,5 @@ compiler:
 before_install:
   - sudo apt-get install cmake valgrind
 script:
-  - mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Debug .. && make && ./test-xml && valgrind --tool=memcheck --leak-check=full --track-origins=yes -v ./test-gltoolkit
+  - mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Debug -DCURL_STATICLIB=ON .. && make && ./test-gltoolkit && valgrind --tool=memcheck --leak-check=full --track-origins=yes -v ./test-gltoolkit
 
